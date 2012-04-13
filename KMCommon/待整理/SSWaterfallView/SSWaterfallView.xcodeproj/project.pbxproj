@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0701747B14FF743200F44D19 /* SSWaterfallView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCAA67F1490B8BE007F6624 /* SSWaterfallView.h */; };
+		CBCAA67B1490B8BE007F6624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCAA67A1490B8BE007F6624 /* Foundation.framework */; };
+		CBCAA6811490B8BE007F6624 /* SSWaterfallView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCAA6801490B8BE007F6624 /* SSWaterfallView.m */; };
+		CBCAA6891490B8BE007F6624 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCAA6881490B8BE007F6624 /* SenTestingKit.framework */; };
+		CBCAA68C1490B8BE007F6624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCAA67A1490B8BE007F6624 /* Foundation.framework */; };
+		CBCAA68F1490B8BE007F6624 /* libSSWaterfallView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCAA6771490B8BE007F6624 /* libSSWaterfallView.a */; };
+		CBCAA6951490B8BE007F6624 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBCAA6931490B8BE007F6624 /* InfoPlist.strings */; };
+		CBCAA6981490B8BE007F6624 /* SSWaterfallViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCAA6971490B8BE007F6624 /* SSWaterfallViewTests.m */; };
+		CBCAA6A31490B8FE007F6624 /* SSWaterfallCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCAA6A11490B8FE007F6624 /* SSWaterfallCell.h */; };
+		CBCAA6A41490B8FE007F6624 /* SSWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCAA6A21490B8FE007F6624 /* SSWaterfallCell.m */; };
+		CBCAA6A61490B94F007F6624 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCAA6A51490B94F007F6624 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCAA68D1490B8BE007F6624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCAA66E1490B8BD007F6624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCAA6761490B8BE007F6624;
+			remoteInfo = SSWaterfallView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBCAA6771490B8BE007F6624 /* libSSWaterfallView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSWaterfallView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCAA67A1490B8BE007F6624 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBCAA67E1490B8BE007F6624 /* SSWaterfallView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSWaterfallView-Prefix.pch"; sourceTree = "<group>"; };
+		CBCAA67F1490B8BE007F6624 /* SSWaterfallView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSWaterfallView.h; sourceTree = "<group>"; };
+		CBCAA6801490B8BE007F6624 /* SSWaterfallView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSWaterfallView.m; sourceTree = "<group>"; };
+		CBCAA6871490B8BE007F6624 /* SSWaterfallViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSWaterfallViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCAA6881490B8BE007F6624 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBCAA6921490B8BE007F6624 /* SSWaterfallViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSWaterfallViewTests-Info.plist"; sourceTree = "<group>"; };
+		CBCAA6941490B8BE007F6624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBCAA6961490B8BE007F6624 /* SSWaterfallViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSWaterfallViewTests.h; sourceTree = "<group>"; };
+		CBCAA6971490B8BE007F6624 /* SSWaterfallViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSWaterfallViewTests.m; sourceTree = "<group>"; };
+		CBCAA6A11490B8FE007F6624 /* SSWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWaterfallCell.h; sourceTree = "<group>"; };
+		CBCAA6A21490B8FE007F6624 /* SSWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWaterfallCell.m; sourceTree = "<group>"; };
+		CBCAA6A51490B94F007F6624 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCAA6741490B8BE007F6624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCAA6A61490B94F007F6624 /* UIKit.framework in Frameworks */,
+				CBCAA67B1490B8BE007F6624 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCAA6831490B8BE007F6624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCAA6891490B8BE007F6624 /* SenTestingKit.framework in Frameworks */,
+				CBCAA68C1490B8BE007F6624 /* Foundation.framework in Frameworks */,
+				CBCAA68F1490B8BE007F6624 /* libSSWaterfallView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCAA66C1490B8BD007F6624 = {
+			isa = PBXGroup;
+			children = (
+				CBCAA67C1490B8BE007F6624 /* SSWaterfallView */,
+				CBCAA6901490B8BE007F6624 /* SSWaterfallViewTests */,
+				CBCAA6791490B8BE007F6624 /* Frameworks */,
+				CBCAA6781490B8BE007F6624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCAA6781490B8BE007F6624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCAA6771490B8BE007F6624 /* libSSWaterfallView.a */,
+				CBCAA6871490B8BE007F6624 /* SSWaterfallViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCAA6791490B8BE007F6624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCAA6A51490B94F007F6624 /* UIKit.framework */,
+				CBCAA67A1490B8BE007F6624 /* Foundation.framework */,
+				CBCAA6881490B8BE007F6624 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBCAA67C1490B8BE007F6624 /* SSWaterfallView */ = {
+			isa = PBXGroup;
+			children = (
+				CBCAA67F1490B8BE007F6624 /* SSWaterfallView.h */,
+				CBCAA6801490B8BE007F6624 /* SSWaterfallView.m */,
+				CBCAA6A11490B8FE007F6624 /* SSWaterfallCell.h */,
+				CBCAA6A21490B8FE007F6624 /* SSWaterfallCell.m */,
+				CBCAA67D1490B8BE007F6624 /* Supporting Files */,
+			);
+			path = SSWaterfallView;
+			sourceTree = "<group>";
+		};
+		CBCAA67D1490B8BE007F6624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCAA67E1490B8BE007F6624 /* SSWaterfallView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBCAA6901490B8BE007F6624 /* SSWaterfallViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCAA6961490B8BE007F6624 /* SSWaterfallViewTests.h */,
+				CBCAA6971490B8BE007F6624 /* SSWaterfallViewTests.m */,
+				CBCAA6911490B8BE007F6624 /* Supporting Files */,
+			);
+			path = SSWaterfallViewTests;
+			sourceTree = "<group>";
+		};
+		CBCAA6911490B8BE007F6624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCAA6921490B8BE007F6624 /* SSWaterfallViewTests-Info.plist */,
+				CBCAA6931490B8BE007F6624 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CBCAA6751490B8BE007F6624 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCAA6A31490B8FE007F6624 /* SSWaterfallCell.h in Headers */,
+				0701747B14FF743200F44D19 /* SSWaterfallView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CBCAA6761490B8BE007F6624 /* SSWaterfallView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCAA69B1490B8BE007F6624 /* Build configuration list for PBXNativeTarget "SSWaterfallView" */;
+			buildPhases = (
+				CBCAA6731490B8BE007F6624 /* Sources */,
+				CBCAA6741490B8BE007F6624 /* Frameworks */,
+				CBCAA6751490B8BE007F6624 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSWaterfallView;
+			productName = SSWaterfallView;
+			productReference = CBCAA6771490B8BE007F6624 /* libSSWaterfallView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBCAA6861490B8BE007F6624 /* SSWaterfallViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCAA69E1490B8BE007F6624 /* Build configuration list for PBXNativeTarget "SSWaterfallViewTests" */;
+			buildPhases = (
+				CBCAA6821490B8BE007F6624 /* Sources */,
+				CBCAA6831490B8BE007F6624 /* Frameworks */,
+				CBCAA6841490B8BE007F6624 /* Resources */,
+				CBCAA6851490B8BE007F6624 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCAA68E1490B8BE007F6624 /* PBXTargetDependency */,
+			);
+			name = SSWaterfallViewTests;
+			productName = SSWaterfallViewTests;
+			productReference = CBCAA6871490B8BE007F6624 /* SSWaterfallViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCAA66E1490B8BD007F6624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = 99fang;
+			};
+			buildConfigurationList = CBCAA6711490B8BD007F6624 /* Build configuration list for PBXProject "SSWaterfallView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBCAA66C1490B8BD007F6624;
+			productRefGroup = CBCAA6781490B8BE007F6624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCAA6761490B8BE007F6624 /* SSWaterfallView */,
+				CBCAA6861490B8BE007F6624 /* SSWaterfallViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCAA6841490B8BE007F6624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCAA6951490B8BE007F6624 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBCAA6851490B8BE007F6624 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCAA6731490B8BE007F6624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCAA6811490B8BE007F6624 /* SSWaterfallView.m in Sources */,
+				CBCAA6A41490B8FE007F6624 /* SSWaterfallCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCAA6821490B8BE007F6624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCAA6981490B8BE007F6624 /* SSWaterfallViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCAA68E1490B8BE007F6624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCAA6761490B8BE007F6624 /* SSWaterfallView */;
+			targetProxy = CBCAA68D1490B8BE007F6624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBCAA6931490B8BE007F6624 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCAA6941490B8BE007F6624 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCAA6991490B8BE007F6624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					arm7,
+					arm6,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBCAA69A1490B8BE007F6624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					arm7,
+					arm6,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCAA69C1490B8BE007F6624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSWaterfallView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSWaterfallView/SSWaterfallView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CBCAA69D1490B8BE007F6624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSWaterfallView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSWaterfallView/SSWaterfallView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CBCAA69F1490B8BE007F6624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSWaterfallView/SSWaterfallView-Prefix.pch";
+				INFOPLIST_FILE = "SSWaterfallViewTests/SSWaterfallViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBCAA6A01490B8BE007F6624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSWaterfallView/SSWaterfallView-Prefix.pch";
+				INFOPLIST_FILE = "SSWaterfallViewTests/SSWaterfallViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCAA6711490B8BD007F6624 /* Build configuration list for PBXProject "SSWaterfallView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCAA6991490B8BE007F6624 /* Debug */,
+				CBCAA69A1490B8BE007F6624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCAA69B1490B8BE007F6624 /* Build configuration list for PBXNativeTarget "SSWaterfallView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCAA69C1490B8BE007F6624 /* Debug */,
+				CBCAA69D1490B8BE007F6624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCAA69E1490B8BE007F6624 /* Build configuration list for PBXNativeTarget "SSWaterfallViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCAA69F1490B8BE007F6624 /* Debug */,
+				CBCAA6A01490B8BE007F6624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCAA66E1490B8BD007F6624 /* Project object */;
+}

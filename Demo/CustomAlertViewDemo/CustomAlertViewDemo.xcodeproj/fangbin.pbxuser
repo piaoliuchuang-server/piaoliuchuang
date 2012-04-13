@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* CustomAlertViewDemoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1686, 2071}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 580}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* CustomAlertViewDemo */ = {
+		activeExec = 0;
+		executables = (
+			710099D514A1B8AB0068D7D6 /* CustomAlertViewDemo */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 710099D514A1B8AB0068D7D6 /* CustomAlertViewDemo */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CustomAlertViewDemo */;
+		codeSenseManager = 710099DA14A1B8B00068D7D6 /* Code sense */;
+		executables = (
+			710099D514A1B8AB0068D7D6 /* CustomAlertViewDemo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					918,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 346143855;
+			PBXWorkspaceStateSaveDate = 346143855;
+		};
+		perUserProjectItems = {
+			710099FF14A1BAE00068D7D6 /* PBXTextBookmark */ = 710099FF14A1BAE00068D7D6 /* PBXTextBookmark */;
+			71009A0014A1BAE00068D7D6 /* PBXTextBookmark */ = 71009A0014A1BAE00068D7D6 /* PBXTextBookmark */;
+			71009A1714A1BB1E0068D7D6 /* PBXTextBookmark */ = 71009A1714A1BB1E0068D7D6 /* PBXTextBookmark */;
+			71009A2C14A1BC760068D7D6 /* PBXTextBookmark */ = 71009A2C14A1BC760068D7D6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 710099D914A1B8B00068D7D6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	710099D514A1B8AB0068D7D6 /* CustomAlertViewDemo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CustomAlertViewDemo;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	710099D914A1B8B00068D7D6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	710099DA14A1B8B00068D7D6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	710099FF14A1BAE00068D7D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CustomAlertViewDemoAppDelegate.m */;
+		name = "CustomAlertViewDemoAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 0;
+	};
+	71009A0014A1BAE00068D7D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2930A69144536A900ABC5BE /* CustomAlertView.h */;
+		name = "CustomAlertView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 150;
+	};
+	71009A1714A1BB1E0068D7D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2930A6A144536A900ABC5BE /* CustomAlertView.m */;
+		name = "CustomAlertView.m: 118";
+		rLen = 0;
+		rLoc = 4582;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 3201;
+	};
+	71009A2C14A1BC760068D7D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D2930A6A144536A900ABC5BE /* CustomAlertView.m */;
+		name = "CustomAlertView.m: 108";
+		rLen = 0;
+		rLoc = 4185;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 3617;
+	};
+	D2930A69144536A900ABC5BE /* CustomAlertView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1862, 589}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{150, 664}";
+		};
+	};
+	D2930A6A144536A900ABC5BE /* CustomAlertView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1242, 3002}}";
+			sepNavSelRange = "{4185, 0}";
+			sepNavVisRange = "{3617, 966}";
+		};
+	};
+}

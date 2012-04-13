@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* FontTest */ = {
+		activeExec = 0;
+		executables = (
+			4D7A45D9118DACFA001C182B /* FontTest */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 230}}";
+			sepNavSelRange = "{296, 0}";
+			sepNavVisRange = "{0, 302}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {666, 2562}}";
+			sepNavSelRange = "{529, 0}";
+			sepNavVisRange = "{169, 705}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4D7A45D9118DACFA001C182B /* FontTest */;
+		activeSDKPreference = iphonesimulator3.1.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FontTest */;
+		codeSenseManager = 4D7A45EB118DAD15001C182B /* Code sense */;
+		executables = (
+			4D7A45D9118DACFA001C182B /* FontTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 294497530;
+			PBXWorkspaceStateSaveDate = 294497530;
+		};
+		perUserProjectItems = {
+			4D7A45F4118DAFBE001C182B /* PBXTextBookmark */ = 4D7A45F4118DAFBE001C182B /* PBXTextBookmark */;
+			4D7A45F5118DAFBE001C182B /* PBXTextBookmark */ = 4D7A45F5118DAFBE001C182B /* PBXTextBookmark */;
+			4D7A45F7118DAFBE001C182B /* PBXTextBookmark */ = 4D7A45F7118DAFBE001C182B /* PBXTextBookmark */;
+			4D7A45F8118DAFBE001C182B /* PBXTextBookmark */ = 4D7A45F8118DAFBE001C182B /* PBXTextBookmark */;
+			4D7A45F9118DAFBE001C182B /* PBXTextBookmark */ = 4D7A45F9118DAFBE001C182B /* PBXTextBookmark */;
+			4D7A45FB118DAFBE001C182B /* PBXTextBookmark */ = 4D7A45FB118DAFBE001C182B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4D7A45EA118DAD15001C182B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D7A45D9118DACFA001C182B /* FontTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FontTest;
+		sourceDirectories = (
+		);
+	};
+	4D7A45EA118DAD15001C182B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	4D7A45EB118DAD15001C182B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4D7A45F4118DAFBE001C182B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 0;
+	};
+	4D7A45F5118DAFBE001C182B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D7A45F6118DAFBE001C182B /* UILabel.h */;
+		name = "UILabel.h: 49";
+		rLen = 149;
+		rLoc = 1610;
+		rType = 0;
+		vrLen = 881;
+		vrLoc = 2650;
+	};
+	4D7A45F6118DAFBE001C182B /* UILabel.h */ = {
+		isa = PBXFileReference;
+		name = UILabel.h;
+		path = /Xcode3.1.4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILabel.h;
+		sourceTree = "<absolute>";
+	};
+	4D7A45F7118DAFBE001C182B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 105";
+		rLen = 13;
+		rLoc = 2875;
+		rType = 0;
+		vrLen = 718;
+		vrLoc = 2387;
+	};
+	4D7A45F8118DAFBE001C182B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 0;
+	};
+	4D7A45F9118DAFBE001C182B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D7A45FA118DAFBE001C182B /* UILabel.h */;
+		name = "UILabel.h: 49";
+		rLen = 149;
+		rLoc = 1610;
+		rType = 0;
+		vrLen = 881;
+		vrLoc = 2650;
+	};
+	4D7A45FA118DAFBE001C182B /* UILabel.h */ = {
+		isa = PBXFileReference;
+		name = UILabel.h;
+		path = /Xcode3.1.4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILabel.h;
+		sourceTree = "<absolute>";
+	};
+	4D7A45FB118DAFBE001C182B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 22";
+		rLen = 0;
+		rLoc = 529;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 169;
+	};
+}

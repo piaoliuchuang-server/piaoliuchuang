@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI
+END
+ASIHTTPRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIHTTPRequest.m
+END
+ASINetworkQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASINetworkQueue.h
+END
+ASICacheDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASICacheDelegate.h
+END
+ASIProgressDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIProgressDelegate.h
+END
+ASIAuthenticationDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIAuthenticationDialog.h
+END
+ASIDataDecompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIDataDecompressor.h
+END
+ASIDownloadCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIDownloadCache.m
+END
+Reachability.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/Reachability.h
+END
+ASINetworkQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASINetworkQueue.m
+END
+ASIAuthenticationDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIAuthenticationDialog.m
+END
+ASIDataDecompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIDataDecompressor.m
+END
+ASIFormDataRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIFormDataRequest.h
+END
+Reachability.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/Reachability.m
+END
+ASIFormDataRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIFormDataRequest.m
+END
+ASIInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIInputStream.h
+END
+ASIHTTPRequestConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIHTTPRequestConfig.h
+END
+ASIInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIInputStream.m
+END
+ASIHTTPRequestDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIHTTPRequestDelegate.h
+END
+ASIDataCompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIDataCompressor.h
+END
+ASIHTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIHTTPRequest.h
+END
+ASIDownloadCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIDownloadCache.h
+END
+ASIDataCompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/aircover/!svn/ver/400/trunk/iphone/MobileSecurity/ASI/ASIDataCompressor.m
+END

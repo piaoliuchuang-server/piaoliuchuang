@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB33775F14C4212100497BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDBD59F14C3B75A0019AFC5 /* Foundation.framework */; };
+		CB33776014C4213100497BD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB33775914C41FC900497BD3 /* UIKit.framework */; };
+		CB33776114C4213600497BD3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDBD5AD14C3B75A0019AFC5 /* SenTestingKit.framework */; };
+		CBDBD5A614C3B75A0019AFC5 /* SSPageFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDBD5A514C3B75A0019AFC5 /* SSPageFlowView.m */; };
+		CBDBD5AE14C3B75A0019AFC5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDBD5AD14C3B75A0019AFC5 /* SenTestingKit.framework */; };
+		CBDBD5B114C3B75A0019AFC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDBD59F14C3B75A0019AFC5 /* Foundation.framework */; };
+		CBDBD5B414C3B75A0019AFC5 /* libSSPageFlowView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDBD59C14C3B75A0019AFC5 /* libSSPageFlowView.a */; };
+		CBDBD5BA14C3B75A0019AFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBDBD5B814C3B75A0019AFC5 /* InfoPlist.strings */; };
+		CBDBD5BD14C3B75A0019AFC5 /* SSPageFlowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDBD5BC14C3B75A0019AFC5 /* SSPageFlowViewTests.m */; };
+		CBDBD5C814C3B7A30019AFC5 /* SSPageFlowUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDBD5C614C3B7A30019AFC5 /* SSPageFlowUnit.h */; };
+		CBDBD5C914C3B7A30019AFC5 /* SSPageFlowUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDBD5C714C3B7A30019AFC5 /* SSPageFlowUnit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBDBD5B214C3B75A0019AFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBDBD59314C3B7590019AFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDBD59B14C3B75A0019AFC5;
+			remoteInfo = SSPageFlowView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB33775914C41FC900497BD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBDBD59C14C3B75A0019AFC5 /* libSSPageFlowView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSPageFlowView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDBD59F14C3B75A0019AFC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBDBD5A314C3B75A0019AFC5 /* SSPageFlowView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSPageFlowView-Prefix.pch"; sourceTree = "<group>"; };
+		CBDBD5A414C3B75A0019AFC5 /* SSPageFlowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPageFlowView.h; sourceTree = "<group>"; };
+		CBDBD5A514C3B75A0019AFC5 /* SSPageFlowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPageFlowView.m; sourceTree = "<group>"; };
+		CBDBD5AC14C3B75A0019AFC5 /* SSPageFlowViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSPageFlowViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDBD5AD14C3B75A0019AFC5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBDBD5B714C3B75A0019AFC5 /* SSPageFlowViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSPageFlowViewTests-Info.plist"; sourceTree = "<group>"; };
+		CBDBD5B914C3B75A0019AFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBDBD5BB14C3B75A0019AFC5 /* SSPageFlowViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPageFlowViewTests.h; sourceTree = "<group>"; };
+		CBDBD5BC14C3B75A0019AFC5 /* SSPageFlowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPageFlowViewTests.m; sourceTree = "<group>"; };
+		CBDBD5C614C3B7A30019AFC5 /* SSPageFlowUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPageFlowUnit.h; sourceTree = "<group>"; };
+		CBDBD5C714C3B7A30019AFC5 /* SSPageFlowUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPageFlowUnit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBDBD59914C3B75A0019AFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB33776114C4213600497BD3 /* SenTestingKit.framework in Frameworks */,
+				CB33776014C4213100497BD3 /* UIKit.framework in Frameworks */,
+				CB33775F14C4212100497BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDBD5A814C3B75A0019AFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDBD5AE14C3B75A0019AFC5 /* SenTestingKit.framework in Frameworks */,
+				CBDBD5B114C3B75A0019AFC5 /* Foundation.framework in Frameworks */,
+				CBDBD5B414C3B75A0019AFC5 /* libSSPageFlowView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBDBD59114C3B7590019AFC5 = {
+			isa = PBXGroup;
+			children = (
+				CBDBD5A114C3B75A0019AFC5 /* SSPageFlowView */,
+				CBDBD5B514C3B75A0019AFC5 /* SSPageFlowViewTests */,
+				CBDBD59E14C3B75A0019AFC5 /* Frameworks */,
+				CBDBD59D14C3B75A0019AFC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBDBD59D14C3B75A0019AFC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBDBD59C14C3B75A0019AFC5 /* libSSPageFlowView.a */,
+				CBDBD5AC14C3B75A0019AFC5 /* SSPageFlowViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBDBD59E14C3B75A0019AFC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB33775914C41FC900497BD3 /* UIKit.framework */,
+				CBDBD59F14C3B75A0019AFC5 /* Foundation.framework */,
+				CBDBD5AD14C3B75A0019AFC5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBDBD5A114C3B75A0019AFC5 /* SSPageFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				CBDBD5A414C3B75A0019AFC5 /* SSPageFlowView.h */,
+				CBDBD5A514C3B75A0019AFC5 /* SSPageFlowView.m */,
+				CBDBD5C614C3B7A30019AFC5 /* SSPageFlowUnit.h */,
+				CBDBD5C714C3B7A30019AFC5 /* SSPageFlowUnit.m */,
+				CBDBD5A214C3B75A0019AFC5 /* Supporting Files */,
+			);
+			path = SSPageFlowView;
+			sourceTree = "<group>";
+		};
+		CBDBD5A214C3B75A0019AFC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBDBD5A314C3B75A0019AFC5 /* SSPageFlowView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBDBD5B514C3B75A0019AFC5 /* SSPageFlowViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBDBD5BB14C3B75A0019AFC5 /* SSPageFlowViewTests.h */,
+				CBDBD5BC14C3B75A0019AFC5 /* SSPageFlowViewTests.m */,
+				CBDBD5B614C3B75A0019AFC5 /* Supporting Files */,
+			);
+			path = SSPageFlowViewTests;
+			sourceTree = "<group>";
+		};
+		CBDBD5B614C3B75A0019AFC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBDBD5B714C3B75A0019AFC5 /* SSPageFlowViewTests-Info.plist */,
+				CBDBD5B814C3B75A0019AFC5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CBDBD59A14C3B75A0019AFC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDBD5C814C3B7A30019AFC5 /* SSPageFlowUnit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CBDBD59B14C3B75A0019AFC5 /* SSPageFlowView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDBD5C014C3B75A0019AFC5 /* Build configuration list for PBXNativeTarget "SSPageFlowView" */;
+			buildPhases = (
+				CBDBD59814C3B75A0019AFC5 /* Sources */,
+				CBDBD59914C3B75A0019AFC5 /* Frameworks */,
+				CBDBD59A14C3B75A0019AFC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSPageFlowView;
+			productName = SSPageFlowView;
+			productReference = CBDBD59C14C3B75A0019AFC5 /* libSSPageFlowView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBDBD5AB14C3B75A0019AFC5 /* SSPageFlowViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDBD5C314C3B75A0019AFC5 /* Build configuration list for PBXNativeTarget "SSPageFlowViewTests" */;
+			buildPhases = (
+				CBDBD5A714C3B75A0019AFC5 /* Sources */,
+				CBDBD5A814C3B75A0019AFC5 /* Frameworks */,
+				CBDBD5A914C3B75A0019AFC5 /* Resources */,
+				CBDBD5AA14C3B75A0019AFC5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBDBD5B314C3B75A0019AFC5 /* PBXTargetDependency */,
+			);
+			name = SSPageFlowViewTests;
+			productName = SSPageFlowViewTests;
+			productReference = CBDBD5AC14C3B75A0019AFC5 /* SSPageFlowViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBDBD59314C3B7590019AFC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = 99fang;
+			};
+			buildConfigurationList = CBDBD59614C3B7590019AFC5 /* Build configuration list for PBXProject "SSPageFlowView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBDBD59114C3B7590019AFC5;
+			productRefGroup = CBDBD59D14C3B75A0019AFC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBDBD59B14C3B75A0019AFC5 /* SSPageFlowView */,
+				CBDBD5AB14C3B75A0019AFC5 /* SSPageFlowViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBDBD5A914C3B75A0019AFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDBD5BA14C3B75A0019AFC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBDBD5AA14C3B75A0019AFC5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBDBD59814C3B75A0019AFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDBD5A614C3B75A0019AFC5 /* SSPageFlowView.m in Sources */,
+				CBDBD5C914C3B7A30019AFC5 /* SSPageFlowUnit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDBD5A714C3B75A0019AFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDBD5BD14C3B75A0019AFC5 /* SSPageFlowViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBDBD5B314C3B75A0019AFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBDBD59B14C3B75A0019AFC5 /* SSPageFlowView */;
+			targetProxy = CBDBD5B214C3B75A0019AFC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBDBD5B814C3B75A0019AFC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBDBD5B914C3B75A0019AFC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBDBD5BE14C3B75A0019AFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBDBD5BF14C3B75A0019AFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBDBD5C114C3B75A0019AFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSPageFlowView.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSPageFlowView/SSPageFlowView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CBDBD5C214C3B75A0019AFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSPageFlowView.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSPageFlowView/SSPageFlowView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CBDBD5C414C3B75A0019AFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSPageFlowView/SSPageFlowView-Prefix.pch";
+				INFOPLIST_FILE = "SSPageFlowViewTests/SSPageFlowViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBDBD5C514C3B75A0019AFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSPageFlowView/SSPageFlowView-Prefix.pch";
+				INFOPLIST_FILE = "SSPageFlowViewTests/SSPageFlowViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBDBD59614C3B7590019AFC5 /* Build configuration list for PBXProject "SSPageFlowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDBD5BE14C3B75A0019AFC5 /* Debug */,
+				CBDBD5BF14C3B75A0019AFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDBD5C014C3B75A0019AFC5 /* Build configuration list for PBXNativeTarget "SSPageFlowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDBD5C114C3B75A0019AFC5 /* Debug */,
+				CBDBD5C214C3B75A0019AFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDBD5C314C3B75A0019AFC5 /* Build configuration list for PBXNativeTarget "SSPageFlowViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDBD5C414C3B75A0019AFC5 /* Debug */,
+				CBDBD5C514C3B75A0019AFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBDBD59314C3B7590019AFC5 /* Project object */;
+}

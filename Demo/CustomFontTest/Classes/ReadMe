@@ -1,0 +1,10 @@
+
+
+1 将 DFPShaoNvW5-GB.ttf 字体文件拖入
+
+2 info.plist 文件中加 键值 Fonts provided by application ，Array类型
+   添加item  值 DFPShaoNvW5-GB
+
+3 使用
+  [UIFont fontWithName:@"DFPShaoNvW5-GB" size:12];
+

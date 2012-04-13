@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9D7E7C149B1B0200D649A2 /* SSGridCellUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9D7E78149B1B0200D649A2 /* SSGridCellUnit.h */; };
+		CB9D7E7D149B1B0200D649A2 /* SSGridCellUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D7E79149B1B0200D649A2 /* SSGridCellUnit.m */; };
+		CB9D7E7E149B1B0200D649A2 /* SSGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9D7E7A149B1B0200D649A2 /* SSGridViewCell.h */; };
+		CB9D7E7F149B1B0200D649A2 /* SSGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D7E7B149B1B0200D649A2 /* SSGridViewCell.m */; };
+		CBF0DD98149B19D9006563EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF0DD97149B19D9006563EC /* Foundation.framework */; };
+		CBF0DD9E149B19D9006563EC /* SSGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0DD9D149B19D9006563EC /* SSGridView.m */; };
+		CBF0DDA6149B19D9006563EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF0DDA5149B19D9006563EC /* SenTestingKit.framework */; };
+		CBF0DDA8149B19D9006563EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF0DDA7149B19D9006563EC /* UIKit.framework */; };
+		CBF0DDA9149B19D9006563EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF0DD97149B19D9006563EC /* Foundation.framework */; };
+		CBF0DDAC149B19D9006563EC /* libSSGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF0DD94149B19D9006563EC /* libSSGridView.a */; };
+		CBF0DDB2149B19D9006563EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBF0DDB0149B19D9006563EC /* InfoPlist.strings */; };
+		CBF0DDB5149B19D9006563EC /* SSGridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0DDB4149B19D9006563EC /* SSGridViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF0DDAA149B19D9006563EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF0DD8B149B19D9006563EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF0DD93149B19D9006563EC;
+			remoteInfo = SSGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB9D7E78149B1B0200D649A2 /* SSGridCellUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSGridCellUnit.h; sourceTree = "<group>"; };
+		CB9D7E79149B1B0200D649A2 /* SSGridCellUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSGridCellUnit.m; sourceTree = "<group>"; };
+		CB9D7E7A149B1B0200D649A2 /* SSGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSGridViewCell.h; sourceTree = "<group>"; };
+		CB9D7E7B149B1B0200D649A2 /* SSGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSGridViewCell.m; sourceTree = "<group>"; };
+		CBEF941F14A457E800B7477C /* delbtn_pad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delbtn_pad.png; sourceTree = "<group>"; };
+		CBF0DD94149B19D9006563EC /* libSSGridView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSGridView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF0DD97149B19D9006563EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBF0DD9B149B19D9006563EC /* SSGridView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSGridView-Prefix.pch"; sourceTree = "<group>"; };
+		CBF0DD9C149B19D9006563EC /* SSGridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGridView.h; sourceTree = "<group>"; };
+		CBF0DD9D149B19D9006563EC /* SSGridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGridView.m; sourceTree = "<group>"; };
+		CBF0DDA4149B19D9006563EC /* SSGridViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSGridViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF0DDA5149B19D9006563EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBF0DDA7149B19D9006563EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBF0DDAF149B19D9006563EC /* SSGridViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSGridViewTests-Info.plist"; sourceTree = "<group>"; };
+		CBF0DDB1149B19D9006563EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBF0DDB3149B19D9006563EC /* SSGridViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGridViewTests.h; sourceTree = "<group>"; };
+		CBF0DDB4149B19D9006563EC /* SSGridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGridViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF0DD91149B19D9006563EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF0DD98149B19D9006563EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF0DDA0149B19D9006563EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF0DDA6149B19D9006563EC /* SenTestingKit.framework in Frameworks */,
+				CBF0DDA8149B19D9006563EC /* UIKit.framework in Frameworks */,
+				CBF0DDA9149B19D9006563EC /* Foundation.framework in Frameworks */,
+				CBF0DDAC149B19D9006563EC /* libSSGridView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBEF941E14A457E800B7477C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF941F14A457E800B7477C /* delbtn_pad.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBF0DD89149B19D9006563EC = {
+			isa = PBXGroup;
+			children = (
+				CBF0DD99149B19D9006563EC /* SSGridView */,
+				CBF0DDAD149B19D9006563EC /* SSGridViewTests */,
+				CBF0DD96149B19D9006563EC /* Frameworks */,
+				CBF0DD95149B19D9006563EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF0DD95149B19D9006563EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0DD94149B19D9006563EC /* libSSGridView.a */,
+				CBF0DDA4149B19D9006563EC /* SSGridViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF0DD96149B19D9006563EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0DD97149B19D9006563EC /* Foundation.framework */,
+				CBF0DDA5149B19D9006563EC /* SenTestingKit.framework */,
+				CBF0DDA7149B19D9006563EC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBF0DD99149B19D9006563EC /* SSGridView */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF941E14A457E800B7477C /* Resources */,
+				CB9D7E78149B1B0200D649A2 /* SSGridCellUnit.h */,
+				CB9D7E79149B1B0200D649A2 /* SSGridCellUnit.m */,
+				CB9D7E7A149B1B0200D649A2 /* SSGridViewCell.h */,
+				CB9D7E7B149B1B0200D649A2 /* SSGridViewCell.m */,
+				CBF0DD9C149B19D9006563EC /* SSGridView.h */,
+				CBF0DD9D149B19D9006563EC /* SSGridView.m */,
+				CBF0DD9A149B19D9006563EC /* Supporting Files */,
+			);
+			path = SSGridView;
+			sourceTree = "<group>";
+		};
+		CBF0DD9A149B19D9006563EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0DD9B149B19D9006563EC /* SSGridView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBF0DDAD149B19D9006563EC /* SSGridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0DDB3149B19D9006563EC /* SSGridViewTests.h */,
+				CBF0DDB4149B19D9006563EC /* SSGridViewTests.m */,
+				CBF0DDAE149B19D9006563EC /* Supporting Files */,
+			);
+			path = SSGridViewTests;
+			sourceTree = "<group>";
+		};
+		CBF0DDAE149B19D9006563EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0DDAF149B19D9006563EC /* SSGridViewTests-Info.plist */,
+				CBF0DDB0149B19D9006563EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CBF0DD92149B19D9006563EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9D7E7C149B1B0200D649A2 /* SSGridCellUnit.h in Headers */,
+				CB9D7E7E149B1B0200D649A2 /* SSGridViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CBF0DD93149B19D9006563EC /* SSGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF0DDB8149B19D9006563EC /* Build configuration list for PBXNativeTarget "SSGridView" */;
+			buildPhases = (
+				CBF0DD90149B19D9006563EC /* Sources */,
+				CBF0DD91149B19D9006563EC /* Frameworks */,
+				CBF0DD92149B19D9006563EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSGridView;
+			productName = SSGridView;
+			productReference = CBF0DD94149B19D9006563EC /* libSSGridView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBF0DDA3149B19D9006563EC /* SSGridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF0DDBB149B19D9006563EC /* Build configuration list for PBXNativeTarget "SSGridViewTests" */;
+			buildPhases = (
+				CBF0DD9F149B19D9006563EC /* Sources */,
+				CBF0DDA0149B19D9006563EC /* Frameworks */,
+				CBF0DDA1149B19D9006563EC /* Resources */,
+				CBF0DDA2149B19D9006563EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF0DDAB149B19D9006563EC /* PBXTargetDependency */,
+			);
+			name = SSGridViewTests;
+			productName = SSGridViewTests;
+			productReference = CBF0DDA4149B19D9006563EC /* SSGridViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF0DD8B149B19D9006563EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = 99fang;
+			};
+			buildConfigurationList = CBF0DD8E149B19D9006563EC /* Build configuration list for PBXProject "SSGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBF0DD89149B19D9006563EC;
+			productRefGroup = CBF0DD95149B19D9006563EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF0DD93149B19D9006563EC /* SSGridView */,
+				CBF0DDA3149B19D9006563EC /* SSGridViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF0DDA1149B19D9006563EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF0DDB2149B19D9006563EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBF0DDA2149B19D9006563EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF0DD90149B19D9006563EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF0DD9E149B19D9006563EC /* SSGridView.m in Sources */,
+				CB9D7E7D149B1B0200D649A2 /* SSGridCellUnit.m in Sources */,
+				CB9D7E7F149B1B0200D649A2 /* SSGridViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF0DD9F149B19D9006563EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF0DDB5149B19D9006563EC /* SSGridViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF0DDAB149B19D9006563EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF0DD93149B19D9006563EC /* SSGridView */;
+			targetProxy = CBF0DDAA149B19D9006563EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBF0DDB0149B19D9006563EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF0DDB1149B19D9006563EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF0DDB6149B19D9006563EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBF0DDB7149B19D9006563EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF0DDB9149B19D9006563EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSGridView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSGridView/SSGridView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CBF0DDBA149B19D9006563EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSGridView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSGridView/SSGridView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CBF0DDBC149B19D9006563EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSGridView/SSGridView-Prefix.pch";
+				INFOPLIST_FILE = "SSGridViewTests/SSGridViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBF0DDBD149B19D9006563EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSGridView/SSGridView-Prefix.pch";
+				INFOPLIST_FILE = "SSGridViewTests/SSGridViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF0DD8E149B19D9006563EC /* Build configuration list for PBXProject "SSGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF0DDB6149B19D9006563EC /* Debug */,
+				CBF0DDB7149B19D9006563EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF0DDB8149B19D9006563EC /* Build configuration list for PBXNativeTarget "SSGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF0DDB9149B19D9006563EC /* Debug */,
+				CBF0DDBA149B19D9006563EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF0DDBB149B19D9006563EC /* Build configuration list for PBXNativeTarget "SSGridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF0DDBC149B19D9006563EC /* Debug */,
+				CBF0DDBD149B19D9006563EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF0DD8B149B19D9006563EC /* Project object */;
+}

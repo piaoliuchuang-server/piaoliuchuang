@@ -1,0 +1,368 @@
+TCustomAlertViewDemo
+v7
+r0
+t346143511.168813
+cCheck dependencies
+cProcessInfoPlistFile /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/Info.plist CustomAlertViewDemo-Info.plist
+cCompileXIB /Users/fangbin/Downloads/CustomAlertViewDemo-1/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn.png btn.png
+cCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/bg.png bg.png
+cCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn4.png btn4.png
+cCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn3.png btn3.png
+cCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/bg1.png bg1.png
+cProcessPCH /var/folders/0d/0dNaT3yZGqeT3XZivbtB0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomAlertViewDemo_Prefix-ecybwmaaarxljzaliakaxwvwhpij/CustomAlertViewDemo_Prefix.pch.gch CustomAlertViewDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/main.o /Users/fangbin/Downloads/CustomAlertViewDemo-1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertViewDemoAppDelegate.o /Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertViewDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertView.o /Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo normal i386
+cGenerateDSYMFile /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app.dSYM /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo
+cTouch /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004E38C0D80000000000000110
+t1312342232
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertView.h
+c000000004E953BFF000000000000032E
+t1318403071
+s814
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertView.m
+c000000004EF1839500000000000016FF
+t1324450709
+s5887
+i"CustomAlertView.h"
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertViewDemoAppDelegate.h
+c000000004E952FA000000000000001D1
+t1318399904
+s465
+i<UIKit/UIKit.h>
+i"CustomAlertView.h"
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertViewDemoAppDelegate.m
+c000000004E9547B90000000000000CE8
+t1318406073
+s3304
+i"CustomAlertViewDemoAppDelegate.h"
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/CustomAlertViewDemo_Prefix.pch
+c000000004E94FF1000000000000000CF
+t1318387472
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/MainWindow.xib
+c000000004E952FD000000000000060F8
+t1318399952
+s24824
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/bg.png
+c000000004E9435050000000000005104
+t1318335749
+s20740
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/bg1.png
+c000000004E8EC1EC000000000000DEA0
+t1317978604
+s56992
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/btn.png
+c000000004E9534B60000000000000B14
+t1318401206
+s2836
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/btn1.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/btn2.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/btn3.png
+c000000004E91A5A500000000000004A6
+t1318167973
+s1190
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/btn4.png
+c000000004E8D1C3A00000000000003D0
+t1317870650
+s976
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertView.o
+t1324450711
+s58464
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertViewDemo.LinkFileList
+c000000004EF1813C00000000000001F3
+t1324450108
+s499
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertViewDemoAppDelegate.o
+t1324450110
+s54560
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/main.o
+t1324450110
+s6320
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app
+t1324450711
+s374
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app.dSYM
+t1324450711
+s102
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo
+t1324450711
+s28116
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/Info.plist
+t1324450108
+s645
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/MainWindow.nib
+t1324450109
+s2032
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/PkgInfo
+t1324450108
+s8
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/bg.png
+t1324450108
+s20740
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/bg1.png
+t1324450108
+s56992
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn.png
+t1324450108
+s2836
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn1.png
+t2
+s0
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn2.png
+t2
+s0
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn3.png
+t1324450108
+s1190
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn4.png
+t1324450108
+s976
+
+N/Users/fangbin/Downloads/CustomAlertViewDemo-1/main.m
+c000000004E94FF100000000000000174
+t1318387472
+s372
+i<UIKit/UIKit.h>
+
+N/var/folders/0d/0dNaT3yZGqeT3XZivbtB0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomAlertViewDemo_Prefix-ecybwmaaarxljzaliakaxwvwhpij/CustomAlertViewDemo_Prefix.pch.gch
+t1324450110
+s15453392
+
+NCustomAlertViewDemo-Info.plist
+c000000004E94FF10000000000000038D
+t1318387472
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies346143510#346143510#0(0"0(0#1#0"8632880512#0"0#
+
+CCompileC build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertView.o /Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s346143510.962569
+e346143511.078014
+r1
+xCompileC
+xbuild/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertView.o
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertView.m346143510#346143511#0(0"0(0#0#72"/Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertView.m8631607616#2272"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-generated-files.hmap -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-own-target-headers.hmap -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-all-target-headers.hmap -iquote /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-project-headers.hmap -F/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/include -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/DerivedSources/i386 -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/DerivedSources -include /var/folders/0d/0dNaT3yZGqeT3XZivbtB0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomAlertViewDemo_Prefix-ecybwmaaarxljzaliakaxwvwhpij/CustomAlertViewDemo_Prefix.pch -c /Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertView.m -o /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertView.o0#
+
+CCompileC build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertViewDemoAppDelegate.o /Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertViewDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s346142910.786259
+e346142910.846036
+r1
+xCompileC
+xbuild/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertViewDemoAppDelegate.o
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertViewDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertViewDemoAppDelegate.m346142910#346142910#0(0"0(0#0#87"/Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertViewDemoAppDelegate.m8632884320#2302"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-generated-files.hmap -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-own-target-headers.hmap -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-all-target-headers.hmap -iquote /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-project-headers.hmap -F/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/include -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/DerivedSources/i386 -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/DerivedSources -include /var/folders/0d/0dNaT3yZGqeT3XZivbtB0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomAlertViewDemo_Prefix-ecybwmaaarxljzaliakaxwvwhpij/CustomAlertViewDemo_Prefix.pch -c /Users/fangbin/Downloads/CustomAlertViewDemo-1/Classes/CustomAlertViewDemoAppDelegate.m -o /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertViewDemoAppDelegate.o0#
+
+CCompileC build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/main.o /Users/fangbin/Downloads/CustomAlertViewDemo-1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s346142910.784945
+e346142910.824603
+r1
+xCompileC
+xbuild/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/main.o
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/fangbin/Downloads/CustomAlertViewDemo-1/main.m346142910#346142910#0(0"0(0#0#53"/Users/fangbin/Downloads/CustomAlertViewDemo-1/main.m8630885088#2242"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-generated-files.hmap -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-own-target-headers.hmap -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-all-target-headers.hmap -iquote /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-project-headers.hmap -F/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/include -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/DerivedSources/i386 -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/DerivedSources -include /var/folders/0d/0dNaT3yZGqeT3XZivbtB0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomAlertViewDemo_Prefix-ecybwmaaarxljzaliakaxwvwhpij/CustomAlertViewDemo_Prefix.pch -c /Users/fangbin/Downloads/CustomAlertViewDemo-1/main.m -o /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/fangbin/Downloads/CustomAlertViewDemo-1/MainWindow.xib
+s346142908.623848
+e346142909.259902
+r1
+xCompileXIB
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib346142908#346142909#0(0"0(0#0#61"/Users/fangbin/Downloads/CustomAlertViewDemo-1/MainWindow.xib8629427840#606"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/MainWindow.nib /Users/fangbin/Downloads/CustomAlertViewDemo-1/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/bg.png bg.png
+s346142908.624811
+e346142908.629236
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CustomAlertViewDemo.app/bg.png
+xbg.png
+lSLF07#2@11"Copy bg.png346142908#346142908#0(0"0(0#0#53"/Users/fangbin/Downloads/CustomAlertViewDemo-1/bg.png8618864160#500"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/fangbin/Downloads/CustomAlertViewDemo-1/bg.png /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app0#
+
+CCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/bg1.png bg1.png
+s346142908.626491
+e346142908.630752
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CustomAlertViewDemo.app/bg1.png
+xbg1.png
+lSLF07#2@12"Copy bg1.png346142908#346142908#0(0"0(0#0#54"/Users/fangbin/Downloads/CustomAlertViewDemo-1/bg1.png8631794208#501"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/fangbin/Downloads/CustomAlertViewDemo-1/bg1.png /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app0#
+
+CCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn.png btn.png
+s346142908.624353
+e346142908.628943
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CustomAlertViewDemo.app/btn.png
+xbtn.png
+lSLF07#2@12"Copy btn.png346142908#346142908#0(0"0(0#0#54"/Users/fangbin/Downloads/CustomAlertViewDemo-1/btn.png8624717216#501"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/fangbin/Downloads/CustomAlertViewDemo-1/btn.png /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app0#
+
+CCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn1.png btn1.png
+r0
+
+CCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn2.png btn2.png
+r0
+
+CCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn3.png btn3.png
+s346142908.625816
+e346142908.630102
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CustomAlertViewDemo.app/btn3.png
+xbtn3.png
+lSLF07#2@13"Copy btn3.png346142908#346142908#0(0"0(0#0#55"/Users/fangbin/Downloads/CustomAlertViewDemo-1/btn3.png8632028416#502"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/fangbin/Downloads/CustomAlertViewDemo-1/btn3.png /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app0#
+
+CCpResource build/Debug-iphonesimulator/CustomAlertViewDemo.app/btn4.png btn4.png
+s346142908.625274
+e346142908.629738
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CustomAlertViewDemo.app/btn4.png
+xbtn4.png
+lSLF07#2@13"Copy btn4.png346142908#346142908#0(0"0(0#0#55"/Users/fangbin/Downloads/CustomAlertViewDemo-1/btn4.png8632181280#502"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/fangbin/Downloads/CustomAlertViewDemo-1/btn4.png /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app0#
+
+CGenerateDSYMFile /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app.dSYM /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo
+s346143511.116030
+e346143511.166893
+r1
+xGenerateDSYMFile
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app.dSYM
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/CustomAlertViewDemo.app.dSYM build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo346143511#346143511#0(0"0(0#0#118"/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo8632667264#443"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo -o /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app.dSYM0#
+
+CLd /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo normal i386
+s346143511.078094
+e346143511.115949
+r1
+xLd
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo
+xnormal
+xi386
+lSLF07#2@123"Link /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo346143511#346143511#0(0"0(0#0#0"8633667712#1022"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator -F/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator -filelist /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/Objects-normal/i386/CustomAlertViewDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/CustomAlertViewDemo0#
+
+CProcessInfoPlistFile /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/Info.plist CustomAlertViewDemo-Info.plist
+s346142908.621123
+e346142908.623778
+r1
+xProcessInfoPlistFile
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/Info.plist
+xCustomAlertViewDemo-Info.plist
+lSLF07#2@38"Process CustomAlertViewDemo-Info.plist346142908#346142908#0(0"0(0#0#77"/Users/fangbin/Downloads/CustomAlertViewDemo-1/CustomAlertViewDemo-Info.plist8609691776#539"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CustomAlertViewDemo-Info.plist -genpkginfo /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/0d/0dNaT3yZGqeT3XZivbtB0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomAlertViewDemo_Prefix-ecybwmaaarxljzaliakaxwvwhpij/CustomAlertViewDemo_Prefix.pch.gch CustomAlertViewDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s346142909.260022
+e346142910.784613
+r1
+xProcessPCH
+x/var/folders/0d/0dNaT3yZGqeT3XZivbtB0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomAlertViewDemo_Prefix-ecybwmaaarxljzaliakaxwvwhpij/CustomAlertViewDemo_Prefix.pch.gch
+xCustomAlertViewDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile CustomAlertViewDemo_Prefix.pch346142909#346142910#0(0"0(0#0#77"/Users/fangbin/Downloads/CustomAlertViewDemo-1/CustomAlertViewDemo_Prefix.pch8631266304#2114"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-generated-files.hmap -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-own-target-headers.hmap -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-all-target-headers.hmap -iquote /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/CustomAlertViewDemo-project-headers.hmap -F/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/include -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/DerivedSources/i386 -I/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/CustomAlertViewDemo.build/Debug-iphonesimulator/CustomAlertViewDemo.build/DerivedSources -c /Users/fangbin/Downloads/CustomAlertViewDemo-1/CustomAlertViewDemo_Prefix.pch -o /var/folders/0d/0dNaT3yZGqeT3XZivbtB0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomAlertViewDemo_Prefix-ecybwmaaarxljzaliakaxwvwhpij/CustomAlertViewDemo_Prefix.pch.gch0#
+
+CTouch /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app
+s346143511.166964
+e346143511.168778
+r1
+xTouch
+x/Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app
+lSLF07#2@104"Touch /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app346143511#346143511#0(0"0(0#0#0"8631673696#306"    cd /Users/fangbin/Downloads/CustomAlertViewDemo-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/fangbin/Downloads/CustomAlertViewDemo-1/build/Debug-iphonesimulator/CustomAlertViewDemo.app0#
+

@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	04970D33140DBE240046A5AC /* CustomFontTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CustomFontTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	04970D3D140DBE4D0046A5AC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	04970D3E140DBE4D0046A5AC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	04970D4E140DC08B0046A5AC /* ReadMe */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 640}}";
+			sepNavSelRange = "{179, 0}";
+			sepNavVisRange = "{0, 179}";
+		};
+	};
+	04970D58140DC1C30046A5AC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CustomFontTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIAppFonts,
+		);
+		name = "/Users/mac/Desktop/CustomFontTest/CustomFontTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	04970D59140DC1C30046A5AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CustomFontTestViewController.h */;
+		name = "CustomFontTestViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 0;
+	};
+	04970D5A140DC1C30046A5AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04970D4E140DC08B0046A5AC /* ReadMe */;
+		name = "ReadMe: 11";
+		rLen = 0;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 0;
+	};
+	04970D5B140DC1C30046A5AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CustomFontTestAppDelegate.h */;
+		name = "CustomFontTestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 0;
+	};
+	04970D5C140DC1C30046A5AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CustomFontTestAppDelegate.m */;
+		name = "CustomFontTestAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1752;
+		vrLoc = 0;
+	};
+	04970D5D140DC1C30046A5AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CustomFontTestViewController.m */;
+		name = "CustomFontTestViewController.m: 4";
+		rLen = 0;
+		rLoc = 59;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 0;
+	};
+	04970D6B140DC1CF0046A5AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CustomFontTestViewController.m */;
+		name = "CustomFontTestViewController.m: 10";
+		rLen = 0;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* CustomFontTestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 640}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 513}";
+		};
+	};
+	1D3623250D0F684500981E51 /* CustomFontTestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1040}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1752}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* CustomFontTest */ = {
+		activeExec = 0;
+		executables = (
+			04970D33140DBE240046A5AC /* CustomFontTest */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* CustomFontTestViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 640}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 251}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* CustomFontTestViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {918, 663}}";
+			sepNavSelRange = "{196, 0}";
+			sepNavVisRange = "{0, 928}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 04970D33140DBE240046A5AC /* CustomFontTest */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CustomFontTest */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* CustomFontTest */,
+		);
+		codeSenseManager = 04970D3E140DBE4D0046A5AC /* Code sense */;
+		executables = (
+			04970D33140DBE240046A5AC /* CustomFontTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					740,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 336444964;
+			PBXWorkspaceStateSaveDate = 336444964;
+		};
+		perUserProjectItems = {
+			04970D58140DC1C30046A5AC /* PlistBookmark */ = 04970D58140DC1C30046A5AC /* PlistBookmark */;
+			04970D59140DC1C30046A5AC /* PBXTextBookmark */ = 04970D59140DC1C30046A5AC /* PBXTextBookmark */;
+			04970D5A140DC1C30046A5AC /* PBXTextBookmark */ = 04970D5A140DC1C30046A5AC /* PBXTextBookmark */;
+			04970D5B140DC1C30046A5AC /* PBXTextBookmark */ = 04970D5B140DC1C30046A5AC /* PBXTextBookmark */;
+			04970D5C140DC1C30046A5AC /* PBXTextBookmark */ = 04970D5C140DC1C30046A5AC /* PBXTextBookmark */;
+			04970D5D140DC1C30046A5AC /* PBXTextBookmark */ = 04970D5D140DC1C30046A5AC /* PBXTextBookmark */;
+			04970D6B140DC1CF0046A5AC /* PBXTextBookmark */ = 04970D6B140DC1CF0046A5AC /* PBXTextBookmark */;
+		};
+		sourceControlManager = 04970D3D140DBE4D0046A5AC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

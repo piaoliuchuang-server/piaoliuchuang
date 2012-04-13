@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403D700E14189AE300D45282 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403D700D14189AE300D45282 /* UIKit.framework */; };
+		403D701014189AE300D45282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403D700F14189AE300D45282 /* Foundation.framework */; };
+		403D701214189AE300D45282 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403D701114189AE300D45282 /* CoreGraphics.framework */; };
+		403D701814189AE300D45282 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 403D701614189AE300D45282 /* InfoPlist.strings */; };
+		403D701A14189AE300D45282 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 403D701914189AE300D45282 /* main.m */; };
+		403D701E14189AE300D45282 /* THScreenCaptureViewTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403D701D14189AE300D45282 /* THScreenCaptureViewTestAppDelegate.m */; };
+		403D702114189AE300D45282 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 403D701F14189AE300D45282 /* MainWindow.xib */; };
+		403D702A14189B1600D45282 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403D702914189B1600D45282 /* MainViewController.m */; };
+		403D703314189E8400D45282 /* sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 403D703214189E8400D45282 /* sound.m4a */; };
+		403D703514189F1900D45282 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403D703414189F1900D45282 /* AVFoundation.framework */; };
+		403D703714189F2400D45282 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403D703614189F2400D45282 /* AssetsLibrary.framework */; };
+		403D703914189F2C00D45282 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403D703814189F2C00D45282 /* CoreMedia.framework */; };
+		403D703B14189F3500D45282 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403D703A14189F3500D45282 /* CoreVideo.framework */; };
+		4089BB071418AB94009A934D /* THCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089BB041418AB94009A934D /* THCapture.m */; };
+		4089BB081418AB94009A934D /* THCaptureUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089BB061418AB94009A934D /* THCaptureUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048B7E541442C1F70023B798 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = SOURCE_ROOT; };
+		403D700914189AE300D45282 /* THScreenCaptureViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THScreenCaptureViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403D700D14189AE300D45282 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		403D700F14189AE300D45282 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		403D701114189AE300D45282 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		403D701514189AE300D45282 /* THScreenCaptureViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THScreenCaptureViewTest-Info.plist"; sourceTree = "<group>"; };
+		403D701714189AE300D45282 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		403D701914189AE300D45282 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		403D701B14189AE300D45282 /* THScreenCaptureViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THScreenCaptureViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		403D701C14189AE300D45282 /* THScreenCaptureViewTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THScreenCaptureViewTestAppDelegate.h; sourceTree = "<group>"; };
+		403D701D14189AE300D45282 /* THScreenCaptureViewTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THScreenCaptureViewTestAppDelegate.m; sourceTree = "<group>"; };
+		403D702014189AE300D45282 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		403D702814189B1600D45282 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		403D702914189B1600D45282 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		403D703214189E8400D45282 /* sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.m4a; sourceTree = "<group>"; };
+		403D703414189F1900D45282 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		403D703614189F2400D45282 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		403D703814189F2C00D45282 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		403D703A14189F3500D45282 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4089BB031418AB94009A934D /* THCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCapture.h; sourceTree = "<group>"; };
+		4089BB041418AB94009A934D /* THCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCapture.m; sourceTree = "<group>"; };
+		4089BB051418AB94009A934D /* THCaptureUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCaptureUtilities.h; sourceTree = "<group>"; };
+		4089BB061418AB94009A934D /* THCaptureUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCaptureUtilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403D700614189AE300D45282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403D703B14189F3500D45282 /* CoreVideo.framework in Frameworks */,
+				403D703914189F2C00D45282 /* CoreMedia.framework in Frameworks */,
+				403D703714189F2400D45282 /* AssetsLibrary.framework in Frameworks */,
+				403D703514189F1900D45282 /* AVFoundation.framework in Frameworks */,
+				403D700E14189AE300D45282 /* UIKit.framework in Frameworks */,
+				403D701014189AE300D45282 /* Foundation.framework in Frameworks */,
+				403D701214189AE300D45282 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403D6FFE14189AE300D45282 = {
+			isa = PBXGroup;
+			children = (
+				403D701314189AE300D45282 /* THScreenCaptureViewTest */,
+				403D700C14189AE300D45282 /* Frameworks */,
+				403D700A14189AE300D45282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403D700A14189AE300D45282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403D700914189AE300D45282 /* THScreenCaptureViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403D700C14189AE300D45282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				403D703A14189F3500D45282 /* CoreVideo.framework */,
+				403D703814189F2C00D45282 /* CoreMedia.framework */,
+				403D703614189F2400D45282 /* AssetsLibrary.framework */,
+				403D703414189F1900D45282 /* AVFoundation.framework */,
+				403D700D14189AE300D45282 /* UIKit.framework */,
+				403D700F14189AE300D45282 /* Foundation.framework */,
+				403D701114189AE300D45282 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		403D701314189AE300D45282 /* THScreenCaptureViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				048B7E541442C1F70023B798 /* readme.txt */,
+				403D703214189E8400D45282 /* sound.m4a */,
+				4089BB021418AB94009A934D /* THCapture */,
+				403D701C14189AE300D45282 /* THScreenCaptureViewTestAppDelegate.h */,
+				403D701D14189AE300D45282 /* THScreenCaptureViewTestAppDelegate.m */,
+				403D702814189B1600D45282 /* MainViewController.h */,
+				403D702914189B1600D45282 /* MainViewController.m */,
+				403D701F14189AE300D45282 /* MainWindow.xib */,
+				403D701414189AE300D45282 /* Supporting Files */,
+			);
+			path = THScreenCaptureViewTest;
+			sourceTree = "<group>";
+		};
+		403D701414189AE300D45282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403D701514189AE300D45282 /* THScreenCaptureViewTest-Info.plist */,
+				403D701614189AE300D45282 /* InfoPlist.strings */,
+				403D701914189AE300D45282 /* main.m */,
+				403D701B14189AE300D45282 /* THScreenCaptureViewTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4089BB021418AB94009A934D /* THCapture */ = {
+			isa = PBXGroup;
+			children = (
+				4089BB031418AB94009A934D /* THCapture.h */,
+				4089BB041418AB94009A934D /* THCapture.m */,
+				4089BB051418AB94009A934D /* THCaptureUtilities.h */,
+				4089BB061418AB94009A934D /* THCaptureUtilities.m */,
+			);
+			path = THCapture;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403D700814189AE300D45282 /* THScreenCaptureViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403D702414189AE300D45282 /* Build configuration list for PBXNativeTarget "THScreenCaptureViewTest" */;
+			buildPhases = (
+				403D700514189AE300D45282 /* Sources */,
+				403D700614189AE300D45282 /* Frameworks */,
+				403D700714189AE300D45282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THScreenCaptureViewTest;
+			productName = THScreenCaptureViewTest;
+			productReference = 403D700914189AE300D45282 /* THScreenCaptureViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403D700014189AE300D45282 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 403D700314189AE300D45282 /* Build configuration list for PBXProject "THScreenCaptureViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 403D6FFE14189AE300D45282;
+			productRefGroup = 403D700A14189AE300D45282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403D700814189AE300D45282 /* THScreenCaptureViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403D700714189AE300D45282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403D701814189AE300D45282 /* InfoPlist.strings in Resources */,
+				403D702114189AE300D45282 /* MainWindow.xib in Resources */,
+				403D703314189E8400D45282 /* sound.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403D700514189AE300D45282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403D701A14189AE300D45282 /* main.m in Sources */,
+				403D701E14189AE300D45282 /* THScreenCaptureViewTestAppDelegate.m in Sources */,
+				403D702A14189B1600D45282 /* MainViewController.m in Sources */,
+				4089BB071418AB94009A934D /* THCapture.m in Sources */,
+				4089BB081418AB94009A934D /* THCaptureUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		403D701614189AE300D45282 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403D701714189AE300D45282 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		403D701F14189AE300D45282 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403D702014189AE300D45282 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		403D702214189AE300D45282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		403D702314189AE300D45282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403D702514189AE300D45282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THScreenCaptureViewTest/THScreenCaptureViewTest-Prefix.pch";
+				INFOPLIST_FILE = "THScreenCaptureViewTest/THScreenCaptureViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		403D702614189AE300D45282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THScreenCaptureViewTest/THScreenCaptureViewTest-Prefix.pch";
+				INFOPLIST_FILE = "THScreenCaptureViewTest/THScreenCaptureViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403D700314189AE300D45282 /* Build configuration list for PBXProject "THScreenCaptureViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403D702214189AE300D45282 /* Debug */,
+				403D702314189AE300D45282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403D702414189AE300D45282 /* Build configuration list for PBXNativeTarget "THScreenCaptureViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403D702514189AE300D45282 /* Debug */,
+				403D702614189AE300D45282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403D700014189AE300D45282 /* Project object */;
+}

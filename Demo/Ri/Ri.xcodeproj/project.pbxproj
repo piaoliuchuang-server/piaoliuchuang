@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BC35D8A1428821300105CD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC35D891428821300105CD7 /* UIKit.framework */; };
+		2BC35D8C1428821300105CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC35D8B1428821300105CD7 /* Foundation.framework */; };
+		2BC35D8E1428821300105CD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC35D8D1428821300105CD7 /* CoreGraphics.framework */; };
+		2BC35D941428821300105CD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BC35D921428821300105CD7 /* InfoPlist.strings */; };
+		2BC35D971428821300105CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC35D961428821300105CD7 /* main.m */; };
+		2BC35D9A1428821300105CD7 /* RiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC35D991428821300105CD7 /* RiAppDelegate.m */; };
+		2BC35D9D1428821300105CD7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC35D9B1428821300105CD7 /* MainWindow.xib */; };
+		2BC35DA01428821300105CD7 /* RiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC35D9F1428821300105CD7 /* RiViewController.m */; };
+		2BC35DA31428821300105CD7 /* RiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC35DA11428821300105CD7 /* RiViewController.xib */; };
+		2BC35DAA1428821300105CD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC35D891428821300105CD7 /* UIKit.framework */; };
+		2BC35DAB1428821300105CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC35D8B1428821300105CD7 /* Foundation.framework */; };
+		2BC35DAC1428821300105CD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC35D8D1428821300105CD7 /* CoreGraphics.framework */; };
+		2BC35DB41428821300105CD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BC35DB21428821300105CD7 /* InfoPlist.strings */; };
+		2BC35DB71428821300105CD7 /* RiTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2BC35DB61428821300105CD7 /* RiTests.h */; };
+		2BC35DB91428821300105CD7 /* RiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC35DB81428821300105CD7 /* RiTests.m */; };
+		2BC35DC41428822A00105CD7 /* DeleteAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC35DC31428822A00105CD7 /* DeleteAnimation.m */; };
+		2BC35DC6142882E700105CD7 /* xiaocangyouzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC35DC5142882E700105CD7 /* xiaocangyouzi.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BC35DAD1428821300105CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BC35D7C1428821200105CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BC35D841428821200105CD7;
+			remoteInfo = Ri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BC35D851428821200105CD7 /* Ri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC35D891428821300105CD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BC35D8B1428821300105CD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BC35D8D1428821300105CD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BC35D911428821300105CD7 /* Ri-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ri-Info.plist"; sourceTree = "<group>"; };
+		2BC35D931428821300105CD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BC35D951428821300105CD7 /* Ri-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ri-Prefix.pch"; sourceTree = "<group>"; };
+		2BC35D961428821300105CD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BC35D981428821300105CD7 /* RiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiAppDelegate.h; sourceTree = "<group>"; };
+		2BC35D991428821300105CD7 /* RiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiAppDelegate.m; sourceTree = "<group>"; };
+		2BC35D9C1428821300105CD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2BC35D9E1428821300105CD7 /* RiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiViewController.h; sourceTree = "<group>"; };
+		2BC35D9F1428821300105CD7 /* RiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiViewController.m; sourceTree = "<group>"; };
+		2BC35DA21428821300105CD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RiViewController.xib; sourceTree = "<group>"; };
+		2BC35DA91428821300105CD7 /* RiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC35DB11428821300105CD7 /* RiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RiTests-Info.plist"; sourceTree = "<group>"; };
+		2BC35DB31428821300105CD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BC35DB51428821300105CD7 /* RiTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RiTests-Prefix.pch"; sourceTree = "<group>"; };
+		2BC35DB61428821300105CD7 /* RiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiTests.h; sourceTree = "<group>"; };
+		2BC35DB81428821300105CD7 /* RiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiTests.m; sourceTree = "<group>"; };
+		2BC35DC21428822A00105CD7 /* DeleteAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteAnimation.h; sourceTree = "<group>"; };
+		2BC35DC31428822A00105CD7 /* DeleteAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteAnimation.m; sourceTree = "<group>"; };
+		2BC35DC5142882E700105CD7 /* xiaocangyouzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaocangyouzi.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BC35D821428821200105CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC35D8A1428821300105CD7 /* UIKit.framework in Frameworks */,
+				2BC35D8C1428821300105CD7 /* Foundation.framework in Frameworks */,
+				2BC35D8E1428821300105CD7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC35DA51428821300105CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC35DAA1428821300105CD7 /* UIKit.framework in Frameworks */,
+				2BC35DAB1428821300105CD7 /* Foundation.framework in Frameworks */,
+				2BC35DAC1428821300105CD7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BC35D7A1428821200105CD7 = {
+			isa = PBXGroup;
+			children = (
+				2BC35D8F1428821300105CD7 /* Ri */,
+				2BC35DAF1428821300105CD7 /* RiTests */,
+				2BC35D881428821300105CD7 /* Frameworks */,
+				2BC35D861428821200105CD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BC35D861428821200105CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BC35D851428821200105CD7 /* Ri.app */,
+				2BC35DA91428821300105CD7 /* RiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BC35D881428821300105CD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BC35D891428821300105CD7 /* UIKit.framework */,
+				2BC35D8B1428821300105CD7 /* Foundation.framework */,
+				2BC35D8D1428821300105CD7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BC35D8F1428821300105CD7 /* Ri */ = {
+			isa = PBXGroup;
+			children = (
+				2BC35DC5142882E700105CD7 /* xiaocangyouzi.png */,
+				2BC35D981428821300105CD7 /* RiAppDelegate.h */,
+				2BC35D991428821300105CD7 /* RiAppDelegate.m */,
+				2BC35D9B1428821300105CD7 /* MainWindow.xib */,
+				2BC35D9E1428821300105CD7 /* RiViewController.h */,
+				2BC35D9F1428821300105CD7 /* RiViewController.m */,
+				2BC35DC21428822A00105CD7 /* DeleteAnimation.h */,
+				2BC35DC31428822A00105CD7 /* DeleteAnimation.m */,
+				2BC35DA11428821300105CD7 /* RiViewController.xib */,
+				2BC35D901428821300105CD7 /* Supporting Files */,
+			);
+			path = Ri;
+			sourceTree = "<group>";
+		};
+		2BC35D901428821300105CD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BC35D911428821300105CD7 /* Ri-Info.plist */,
+				2BC35D921428821300105CD7 /* InfoPlist.strings */,
+				2BC35D951428821300105CD7 /* Ri-Prefix.pch */,
+				2BC35D961428821300105CD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BC35DAF1428821300105CD7 /* RiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BC35DB61428821300105CD7 /* RiTests.h */,
+				2BC35DB81428821300105CD7 /* RiTests.m */,
+				2BC35DB01428821300105CD7 /* Supporting Files */,
+			);
+			path = RiTests;
+			sourceTree = "<group>";
+		};
+		2BC35DB01428821300105CD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BC35DB11428821300105CD7 /* RiTests-Info.plist */,
+				2BC35DB21428821300105CD7 /* InfoPlist.strings */,
+				2BC35DB51428821300105CD7 /* RiTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BC35D841428821200105CD7 /* Ri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BC35DBC1428821300105CD7 /* Build configuration list for PBXNativeTarget "Ri" */;
+			buildPhases = (
+				2BC35D811428821200105CD7 /* Sources */,
+				2BC35D821428821200105CD7 /* Frameworks */,
+				2BC35D831428821200105CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ri;
+			productName = Ri;
+			productReference = 2BC35D851428821200105CD7 /* Ri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BC35DA81428821300105CD7 /* RiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BC35DBF1428821300105CD7 /* Build configuration list for PBXNativeTarget "RiTests" */;
+			buildPhases = (
+				2BC35DA41428821300105CD7 /* Sources */,
+				2BC35DA51428821300105CD7 /* Frameworks */,
+				2BC35DA61428821300105CD7 /* Resources */,
+				2BC35DA71428821300105CD7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BC35DAE1428821300105CD7 /* PBXTargetDependency */,
+			);
+			name = RiTests;
+			productName = RiTests;
+			productReference = 2BC35DA91428821300105CD7 /* RiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BC35D7C1428821200105CD7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BC35D7F1428821200105CD7 /* Build configuration list for PBXProject "Ri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BC35D7A1428821200105CD7;
+			productRefGroup = 2BC35D861428821200105CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BC35D841428821200105CD7 /* Ri */,
+				2BC35DA81428821300105CD7 /* RiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BC35D831428821200105CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC35D941428821300105CD7 /* InfoPlist.strings in Resources */,
+				2BC35D9D1428821300105CD7 /* MainWindow.xib in Resources */,
+				2BC35DA31428821300105CD7 /* RiViewController.xib in Resources */,
+				2BC35DC6142882E700105CD7 /* xiaocangyouzi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC35DA61428821300105CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC35DB41428821300105CD7 /* InfoPlist.strings in Resources */,
+				2BC35DB71428821300105CD7 /* RiTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BC35DA71428821300105CD7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BC35D811428821200105CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC35D971428821300105CD7 /* main.m in Sources */,
+				2BC35D9A1428821300105CD7 /* RiAppDelegate.m in Sources */,
+				2BC35DA01428821300105CD7 /* RiViewController.m in Sources */,
+				2BC35DC41428822A00105CD7 /* DeleteAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC35DA41428821300105CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC35DB91428821300105CD7 /* RiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BC35DAE1428821300105CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BC35D841428821200105CD7 /* Ri */;
+			targetProxy = 2BC35DAD1428821300105CD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BC35D921428821300105CD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BC35D931428821300105CD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BC35D9B1428821300105CD7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BC35D9C1428821300105CD7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2BC35DA11428821300105CD7 /* RiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BC35DA21428821300105CD7 /* en */,
+			);
+			name = RiViewController.xib;
+			sourceTree = "<group>";
+		};
+		2BC35DB21428821300105CD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BC35DB31428821300105CD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BC35DBA1428821300105CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BC35DBB1428821300105CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2BC35DBD1428821300105CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ri/Ri-Prefix.pch";
+				INFOPLIST_FILE = "Ri/Ri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BC35DBE1428821300105CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ri/Ri-Prefix.pch";
+				INFOPLIST_FILE = "Ri/Ri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2BC35DC01428821300105CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ri.app/Ri";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RiTests/RiTests-Prefix.pch";
+				INFOPLIST_FILE = "RiTests/RiTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2BC35DC11428821300105CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ri.app/Ri";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RiTests/RiTests-Prefix.pch";
+				INFOPLIST_FILE = "RiTests/RiTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BC35D7F1428821200105CD7 /* Build configuration list for PBXProject "Ri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC35DBA1428821300105CD7 /* Debug */,
+				2BC35DBB1428821300105CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BC35DBC1428821300105CD7 /* Build configuration list for PBXNativeTarget "Ri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC35DBD1428821300105CD7 /* Debug */,
+				2BC35DBE1428821300105CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BC35DBF1428821300105CD7 /* Build configuration list for PBXNativeTarget "RiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC35DC01428821300105CD7 /* Debug */,
+				2BC35DC11428821300105CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BC35D7C1428821200105CD7 /* Project object */;
+}

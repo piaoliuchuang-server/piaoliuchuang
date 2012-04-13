@@ -1,0 +1,20 @@
+#Demos
+
+###iPhone
+* AVCam : 录像
+* THScreenCaptureViewTest_1.1.0 : 屏幕抓取
+* levey-QuadCurveMenu-3c30b9d : Path2的Menu button
+* ShakeMobile : 摇一摇功能 (同时实现了定位功能, ASI, XML解析)
+* FontTest : 很多字体的一个demo
+* CustomFontTest : 添加自定义字体的一个demo, 主要是有一个很好看的字体 (ps. 字体可以到这个网站下载 : http://sc.52design.com/qt-font/en_font/fonts-a.shtml)
+* animations : UIView动画汇总, 包括 苹果的私有动画
+* UIViewDemo : 基本同上, 支持在动画执行过程中停顿查看状态
+* Ri : 类似 iOS 应用删除的晃动效果
+* Path2DemoPrj : Path2的一些效果 (包括 timeline, 左右划出的view, 和上面的 Menu button )
+* CustomAlertViewDemo : 类似于 UIAlertView 的弹出效果
+* Untitled : 给图片覆盖上漂亮的遮罩
+* MGSplitViewController : 各种效果的 split vc，支持很多变换方式
+* glgif : openGL ES 实现的 gif 播放
+
+###iPad
+* Accordion : 文件浏览器相类似的折叠功能
